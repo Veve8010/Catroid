@@ -22,7 +22,6 @@
   ~ along with this program.  If not, see <http://www.gnu.org/licenses/>.
   -->
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:paddingTop="@dimen/dialog_content_area_padding_top"
@@ -42,7 +41,7 @@
             <TextView
                 android:id="@+id/dialog_new_sound_recorder"
                 android:background="@drawable/new_object_dialog_selector"
-                app:drawableTopCompat="@drawable/pc_toolbar_icon"
+                android:drawableTop="@drawable/ic_record_sound"
                 android:gravity="center"
                 android:text="@string/add_sound_from_recorder"
                 android:textSize="?attr/medium" />
@@ -50,7 +49,7 @@
             <TextView
                 android:id="@+id/dialog_new_sound_media_library"
                 android:background="@drawable/new_object_dialog_selector"
-                app:drawableTopCompat="@drawable/ic_media_library"
+                android:drawableTop="@drawable/ic_media_library_sounds"
                 android:gravity="center"
                 android:text="@string/add_look_media_library"
                 android:textSize="?attr/medium" />
@@ -63,7 +62,7 @@
             <TextView
                 android:id="@+id/dialog_new_sound_gallery"
                 android:background="@drawable/new_object_dialog_selector"
-                app:drawableTopCompat="@drawable/ic_gallery"
+                android:drawableTop="@drawable/ic_music_library"
                 android:gravity="center"
                 android:text="@string/add_sound_choose_file"
                 android:textSize="?attr/medium" />
@@ -71,7 +70,7 @@
             <TextView
                 android:id="@+id/dialog_new_sound_pocketmusic"
                 android:background="@drawable/new_object_dialog_selector"
-                app:drawableTopCompat="@drawable/ic_pocketmusic"
+                android:drawableTop="@drawable/ic_music_composer"
                 android:gravity="center"
                 android:text="@string/add_sound_music"
                 android:textSize="?attr/medium"
