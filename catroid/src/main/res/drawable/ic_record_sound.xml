@@ -1,7 +1,6 @@
-<?xml version="1.0" encoding="utf-8"?>
 <!--
   ~ Catroid: An on-device visual programming system for Android devices
-  ~ Copyright (C) 2010-2018 The Catrobat Team
+  ~ Copyright (C) 2010-2021 The Catrobat Team
   ~ (<http://developer.catrobat.org/credits>)
   ~
   ~ This program is free software: you can redistribute it and/or modify
@@ -22,12 +21,10 @@
   ~ along with this program.  If not, see <http://www.gnu.org/licenses/>.
   -->
 
-<menu xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto">
-
-    <item
-        android:id="@+id/confirm"
-        android:icon="@drawable/ic_done"
-        android:title="@string/confirm"
-        app:showAsAction="always" />
-</menu>
+<vector android:autoMirrored="true" android:height="45dp"
+    android:viewportHeight="200" android:viewportWidth="200"
+    android:width="45dp" xmlns:android="http://schemas.android.com/apk/res/android">
+    <path
+        android:fillColor="#fff"
+        android:pathData="M100,116.666c11.068,0 19.936,-8.932 19.936,-19.999l0.064,-40c0,-11.068 -8.932,-20 -20,-20c-11.068,0 -20,8.932 -20,20v40C80,107.734 88.932,116.666 100,116.666zM135.332,96.667c0,19.999 -16.934,33.997 -35.332,33.997S64.668,116.666 64.668,96.667h-11.334c0,22.733 18.135,41.536 40,44.798v21.868h13.333L106.667,141.465c21.863,-3.197 40,-21.999 40,-44.798L135.332,96.667z"/>
+</vector>

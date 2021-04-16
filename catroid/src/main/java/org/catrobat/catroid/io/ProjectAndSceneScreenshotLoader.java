@@ -79,8 +79,7 @@ public class ProjectAndSceneScreenshotLoader {
 	private int thumbnailWidth;
 	private int thumbnailHeight;
 
-	private static int[] placeholderImages = {R.drawable.catrobat, R.drawable.elephant, R.drawable.lynx,
-			R.drawable.panda, R.drawable.pingu, R.drawable.racoon};
+	private static int[] placeholderImages = {R.drawable.catrobat, R.drawable.elephant,	R.drawable.lynx, R.drawable.panda, R.drawable.pingu, R.drawable.racoon};
 
 	private Map<String, Bitmap> imageCache = Collections.synchronizedMap(new LinkedHashMap<String, Bitmap>(
 			INITIAL_VALUE, LOAD_FACTOR, true) {
